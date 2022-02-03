@@ -6,14 +6,14 @@ define(function(require, exports, module) {
             'structure': 'Organigramm',
             'filetree': 'Verzeichnis-Organigramm',
             'right': 'Logisches Strukturdiagramm',
-            'fish-bone': 'Fischknochenfigur'
+            'fish-bone': 'Fischgrätenmuster'
         },
         'theme': {
             'classic': 'Klassisch',
             'classic-compact': 'Klassisch Kompakt',
             'snow': 'Klassisch 2',
             'snow-compact': 'Kompakt klassisch 2',
-            'fish': 'Fischknochen',
+            'fish': 'Fischgräten',
             'wire': 'Drahtgitter',
             'fresh-red': 'Rot',
             'fresh-soil': 'Braun',
@@ -31,7 +31,7 @@ define(function(require, exports, module) {
             'tianpan-compact': 'Kompakt runde Knoten'
         },
         'maintopic': 'Hauptthema',
-        'topic': 'Zweigthema',
+        'topic': 'Unterthema',
         'panels': {
             'history': 'Verlauf',
             'template': 'Vorlage',
@@ -54,7 +54,7 @@ define(function(require, exports, module) {
         'ui': {
             'command': {
                 'appendsiblingnode': 'Neuer Geschwisterknoten',
-                'appendparentnode': 'Neuer Überknoten unterhalb',
+                'appendparentnode': 'Neuer Hauptknoten unterhalb',
                 'appendchildnode': 'Neuer Unterknoten',
                 'removenode': 'Löschen',
                 'editnode': 'Bearbeiten',
@@ -103,9 +103,9 @@ define(function(require, exports, module) {
             'copystyle': 'Formatierung kopieren',
             'pastestyle': 'Formatierung übertragen',
             'appendsiblingnode': 'Geschwisterknoten einfügen',
-            'appendchildnode': 'Kindknoten einfügen',
-            'arrangeup': 'Voreinstellung',
-            'arrangedown': 'Nachstimmen',
+            'appendchildnode': 'Unterknoten einfügen',
+            'arrangeup': 'Aufsteigend sortieren',
+            'arrangedown': 'Absteigend sortieren',
             'editnode': 'Bearbeiten',
             'removenode': 'Löschen',
             'priority': 'Priorität',
@@ -169,7 +169,7 @@ define(function(require, exports, module) {
                     'title': 'Link',
                     'linkurl': 'URL：',
                     'linkhint': 'Hinweis：',
-                    'placeholder': 'Muss mit http(s):// oderftp:// beginnen',
+                    'placeholder': 'Muss mit http(s):// oder ftp:// beginnen',
                     'placeholder2': 'Optional: Text für den Tooltip, wenn die Maus sich über dem Link befindet',
                     'ok': 'OK',
                     'cancel': 'Abbrechen'
@@ -187,12 +187,12 @@ define(function(require, exports, module) {
                 'maintopic': 'Hauptthema'
             },
             'node': {
-                'arrangeup': 'Arrange Up',
+                'arrangeup': 'Aufsteigend sortieren',
                 'appendchildnode': 'Neuer Unterknoten',
                 'appendsiblingnode': 'Neuer Geschwisterknoten',
-                'arrangedown': 'Arrange Down',
+                'arrangedown': 'Absteigend sortieren',
                 'removenode': 'Knoten löschen',
-                'appendparentnode': 'Append Parent Node',
+                'appendparentnode': 'Hauptknoten hinzufügen',
                 'selectall': 'Alles auswählen',
                 'topic': 'Thema',
                 'importnode': 'Knoten importieren',
